@@ -20,6 +20,6 @@ try:
     
     #Check birthday
     if(today.month==user_date.month and today.day==user_date.day):
-        print("Happy birthday")
+        print("Happy birthday!")
 except:
         print("Incorrect data format, date format should be dd/mm/yyyy")
